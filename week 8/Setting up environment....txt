@@ -1,0 +1,13 @@
+Setting up environment...
+conda create –n tf python=3.9
+conda activate tf
+conda install –c conda-forge tensorflow
+pip install tensorflow_datasets
+conda install –c conda-forge scikit-learn
+pip install scikeras
+conda install –c conda-forge pandas
+conda install –c conda-forge jupyterlab
+
+
+
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
